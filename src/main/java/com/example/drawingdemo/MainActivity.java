@@ -106,6 +106,7 @@ public class MainActivity extends AppCompatActivity {
             DisplayMetrics dm = getResources().getDisplayMetrics();
             deviceX = dm.widthPixels;
             drawY = dm.heightPixels * 1 / 10;
+
             // make the entire canvas white
             paint.setStyle(Paint.Style.FILL);
             paint.setColor(Color.WHITE);
